@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+.flex-all-ceneter{
+    position: relative;
+    top: 6vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    height: 45px;
+}
+.search{
+    display: flex;
+    align-items: center; 
+    font-family: 'Lato', sans-serif;
+}
+.btn{
+    padding: 5px 10px;
+    background-color: rgba(4, 122, 213, 0.589) ;
+    border: 1px solid rgb(252, 252, 252);  
+    border-radius: 5px;
+    cursor: pointer;
+}
+.image-top{
+    margin: 10vh 23vw;
+    height: 50vh;
+    width: 109vh;
+    object-fit: cover;
+    object-position: center center;
+    transition: 0.1s;
+}
+.active {
+    border-color: #666;
+}
+
+.slider{
+    position: relative;
+    display: flex;
+} 
+.search button{
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+.last{
+    position: relative;
+    top: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #047BD5;
+    height: 4vw;
+}
+.content img {
+    height: 25vh;
+    margin: 4vh;
+    object-fit: cover;
+    object-position: center center;
+    transition: transform .2s; 
+}
+.content img:hover {
+    transform: scale(1.19); 
+  }
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.inner{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 3px;
+    overflow: scroll;
+}
+/*.lines{
+    position: relative;
+    left: 6vw;
+    font-family: 'Lato', sans-serif;
+}*/
+
+.base h2 {
+    background-color: rgba(4, 122, 213, 0.589);
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.8vw;
+}
